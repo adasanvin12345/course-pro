@@ -15,13 +15,14 @@ export default {
 <style scoped>
     .footer-container{
         display: flex;  
-        /* justify-content: center; */
+        justify-content: flex-start;
         align-items: center;    
         margin-top: 82px;  
+        width: 100%;
         margin-bottom: 58px;
     }
     .copyright{
-        width: 489px;
+        width: 40%;
         height: 34px;
         text-align: left;
         font-family: Noto Sans;
@@ -34,10 +35,11 @@ export default {
         text-transform: capitalize;
         opacity: 1;
         margin: 0px;
-        margin-left: 140px;
+        margin-left: 7.3%;
     }
     .terms{
-        width: 191px;
+        /* width: 300px; */
+        width: 16%;
         height: 30px;
         text-align: left;
         font-family: Noto Sans;
@@ -50,10 +52,10 @@ export default {
         text-transform: capitalize;
         opacity: 1;
         margin: 0px;
-        margin-left: 758px;
+        margin-left: 35%;
     }
     .privacy{
-        width: 151px;
+        width: 250px;
         height: 30px;
         text-align: left;
         font-family: Noto Sans;

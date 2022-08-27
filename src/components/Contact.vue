@@ -62,16 +62,18 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 1920px;
+        /* width: 1920px; */
+        width: 100%;
         margin: 0px;
         /* padding-left: 137px; */
-        margin-top: 165px;
+        margin-top: 150px;
         margin-right: 0px;
     }
     .contact-heading{
         margin-top: 0px;
         margin-bottom: 0px;
-        width: 120px;
+        /* width: 120px; */
+        width: 10%;
         height: 34px;
         text-align: left;
         font-family: Noto Sans;
@@ -86,7 +88,8 @@ export default {
         margin-top: 8px;
         margin-bottom: 0px;
         margin-left: 0px;
-        width: 410px;
+        /* width: 410px; */
+        width: 25%;
         height: 109px;
         text-align: center;
         font-family: Noto Sans;
@@ -101,7 +104,8 @@ export default {
     }
     .form-container{
         display: flex;
-        width: 1920px;
+        /* width: 1920px; */
+        width: 100%;
         height: 909px;
         /* UI Properties */
         background: #F8F9FB 0% 0% no-repeat padding-box;
@@ -113,10 +117,12 @@ export default {
         display: flex;
         flex-direction: column;
         padding-left: 150px;
-        width: 800px;
+        /* width: 800px; */
+        width: 35%;
     }
     .form-left-heading{
-        width: 372px;
+        /* width: 372px; */
+        width: 100%;
         height: 47px;
         text-align: left;
         font-family: Noto Sans;
@@ -136,12 +142,14 @@ export default {
     }
     .form-left-box{
         display: flex;
-        width: 450px;
+        /* width: 450px; */
+        width: 100%;
         /* justify-content: center; */
         align-items: center;
     }
     .form-left-image{
-        width: 118px;
+        /* width: 118px; */
+        width: 20%;
         height: 118px;        
         opacity: 1;
     }
@@ -155,7 +163,8 @@ export default {
         background: transparent url('../assets/Group 10748.png') 0% 0% no-repeat padding-box;
     }
     .form-left-info{
-        width: 322px;
+        /* width: 322px; */
+        width: 50%;
         height: 34px;
         text-align: left;
         font-family: Noto Sans;
@@ -173,15 +182,17 @@ export default {
     }
     .social-media-logos{
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         align-items: center;
-        width: 425px;
+        /* width: 425px; */
+        width: 100%;
     }
     .social-media-icon{
         width: 67px;
         height: 67px;
         opacity: 1;
         margin: 0px;
+        margin-right: 8%;
     }
     .facebook{
         background: transparent url('../assets/Facebook.png') 0% 0% no-repeat padding-box;
@@ -204,7 +215,8 @@ export default {
         padding-top: 0px;
     }
     .form-right-heading{
-        width: 570px;
+        /* width: 570px; */
+        width: 70%;
         height: 68px;
         text-align: center;
         font-family: Noto Sans;
@@ -222,27 +234,30 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
-    /* .form-row{
-        display: flex;
+    .form-row{
+        width: 100%;
+        /* display: flex;
         justify-content: center; 
-        align-items: center; 
-    } */
+        align-items: center;  */
+    }
     .input-data{
         border: none;
         border-bottom: 2px solid #01CB63;
         background: #F8F9FB 0% 0% no-repeat padding-box;;
-        width: 342px;
-        height: 50px;
+        /* width: 342px; */
+        width: 42%;
+        height: 30px;
     }
     .form-input-name{
-        margin-right: 96px;
+        margin-right: 10%;
     }
     .form-input-email{
         /* margin-top: 61px; */
     }
     .form-input-phone{
-        margin-right: 96px;
+        margin-right: 10%;
         margin-top: 61px;
     }
     .form-input-subject{
@@ -250,14 +265,16 @@ export default {
     }
     .form-input-message{
         margin-top: 61px;
-        width: 792px;
+        /* width: 792px; */
+        width: 100%;
         height: 272px;
         border: 2px solid #01CB63;
         border-radius: 2px;
         opacity: 1;
     }
     .form-submit-button{
-        width: 242px;
+        /* width: 242px; */
+        width: 30%;
         height: 70px;
         background: #000000 0% 0% no-repeat padding-box;
         border-radius: 10px;
@@ -272,5 +289,6 @@ export default {
         letter-spacing: 0.5px;
         color: #FFFFFF;
         opacity: 1;
+        cursor: pointer;
     }
 </style>

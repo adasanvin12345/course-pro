@@ -33,6 +33,7 @@ export default {
         /* left: 0px; */
         /* margin: 0px; */
         width: 1920px;
+        width: 100%;
         height: 349px;
         background: transparent url('../assets/Group 12141.png') 0% 0% no-repeat padding-box;
         opacity: 1;

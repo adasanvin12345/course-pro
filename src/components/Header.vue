@@ -31,7 +31,8 @@ export default {
 <style scoped>
     .header_container {
         margin: 0px;
-        width: 1920px;
+        /* width: 1920px; */
+        width: 100%;
         height: 110px;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         opacity: 1;
@@ -44,9 +45,11 @@ export default {
     }
     .group-3_icon{
         margin-top: 31px;
-        margin-left: 140px;
+        /* margin-left: 140px; */
+        margin-left: 7.3%;
         margin-bottom: 24px;
-        width: 212px;
+        /* width: 212px; */
+        width: 15%;
         height: 55px;
         /* UI Properties */
         background: transparent url('../assets/Group 3.png') 0% 0% no-repeat padding-box;
@@ -55,8 +58,10 @@ export default {
     .header_login_link{
         margin-top: 42px;
         margin-left: 1172px;
+        margin-left: 50%;
         margin-bottom: 41px;
-        width: 56px;
+        /* width: 56px; */
+        width: 3%;
         height: 27px;
         text-align: left;
         font-family: Noto Sans;
@@ -67,19 +72,28 @@ export default {
         letter-spacing: 0px;
         color: #1F2532;
         opacity: 1;
+        text-decoration: none;
     }
     .header_register_button{
         margin-top: 25px;
         margin-left: 56px;
+        margin-left: 3%;
         margin-bottom: 25px;
         margin-right: 0px;
-        width: 144px;
+        /* width: 144px; */
+        width: 7.5%;
         height: 60px;
         /* UI Properties */
         background: #01CB63 0% 0% no-repeat padding-box;
         box-shadow: 0px 5px 15px #01CB6359;
         border-radius: 10px;
         opacity: 1;
+        color: white;
+        font-size: 20px;
+        font-family: Noto Sans;
+        font-style: italic;
+        cursor: pointer;
+        /* font: normal normal normal 20px/27px Noto Sans; */
     }
     .header_content{
         /* width: 1920px; */
@@ -95,11 +109,14 @@ export default {
         /* align-items: center; */
     }
     .header_content_left_1{        
-        margin-left: 140px;
+        /* margin-left: 140px; */
+        margin-left: 7.3%;
         margin-top: 139px;
         margin-bottom: 0px;
-        margin-right: 153px;
-        width: 655px;
+        /* margin-right: 153px; */
+        margin-right: 7.9%;
+        /* width: 655px; */
+        width: 34%;
         height: 225px; 
         text-align: left;
         font-family: Noto Sans;
@@ -113,9 +130,11 @@ export default {
         opacity: 1;
     }
     .header_content_left_2{
-        margin-left: 140px;
+        /* margin-left: 140px; */
+        margin-left: 7.3%;
         /* margin-top: 35px; */
-        width: 667px;
+        /* width: 667px; */
+        width: 34.7%;
         height: 141px;
         /* UI Properties */
         text-align: left;
@@ -126,11 +145,14 @@ export default {
         /* font: normal normal normal 30px/50px Noto Sans; */
         letter-spacing: 0px;
         color: #1F2532;
+        margin-top: 5%;
     }
     .header_content_left_button{
-        margin-left: 140px;
+        /* margin-left: 140px; */
+        margin-left: 7.3%;
         margin-bottom: 138px;
-        width: 242px;
+        /* width: 242px; */
+        width: 17%;
         /* height: 70px; */
         padding-top: 18px;
         padding-bottom: 18px;
@@ -147,10 +169,12 @@ export default {
         letter-spacing: 0.5px;
         color: #FFFFFF;
         opacity: 1;
+        cursor: pointer;
     }
     .header_content_right_image{
         margin: 0px;
-        width: 960px;
+        /* width: 960px; */
+        width: 50%;
         height: 783px;
         background: transparent url('../assets/Rectangle 25.png') 0% 0% no-repeat padding-box;
         mix-blend-mode: multiply;

@@ -45,16 +45,19 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 1920px;
+        /* width: 1920px; */
+        width: 100%;
         margin: 0px;
         /* padding-left: 137px; */
-        margin-top: 216px;
+        margin-top: 150px;
         margin-right: 0px;
     }
     .testimonials-inner_container{
         margin-top: 0px;
-        margin-left: 140px;
-        margin-right: 140px;
+        /* margin-left: 140px;
+        margin-right: 140px; */
+        margin-left: 5.5%;
+        margin-right: 5.5%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -62,7 +65,8 @@ export default {
     .testimonials-heading{
         margin-top: 0px;
         margin-bottom: 0px;
-        width: 131px;
+        /* width: 131px; */
+        width: 3%;
         height: 34px;
         /* UI Properties */
         text-align: left;
@@ -77,7 +81,8 @@ export default {
         margin-top: 12px;
         margin-bottom: 0px;
         margin-left: 0px;
-        width: 490px;
+        /* width: 490px; */
+        width: 35%;
         height: 109px;
         /* UI Properties */
         text-align: left;
@@ -100,7 +105,8 @@ export default {
         padding-left: 39px;
     }
     .testimonials-box{
-        width: 720px;
+        /* width: 720px; */
+        width: 44%;
         height: 354px;
         /* UI Properties */
         background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -115,7 +121,8 @@ export default {
         /* padding-right: 45px; */
     }
     .testimonials-content-desc{
-        width: 664px;
+        /* width: 664px; */
+        width: 95%;
         height: 171px;
         margin: 0px;
         margin-top: 68px;
@@ -135,9 +142,11 @@ export default {
         margin-top: 25px;
         align-items: center;
         justify-content: start;
+        width: 100%;
     }
     .box-desc-image{
         width: 52px;
+        /* width: 10%; */
         height: 52px;
         /* UI Properties */       
         border-radius: 50%;
@@ -155,7 +164,9 @@ export default {
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+        margin: 0px;
         margin-left: 12px;
+        width: 20%;
     }
     .name{
         /* width: 101px; */
@@ -172,7 +183,8 @@ export default {
         margin: 0px;
     }
     .day{
-        width: 67px;
+        /* width: 67px; */
+        width: 50%;
         height: 22px;
         margin: 0px;
         margin-top: 5px;
@@ -187,9 +199,11 @@ export default {
         opacity: 1;
     }
     .comma-image{
-        width: 45px;
+        /* width: 45px; */
+        width: 20%;
         height: 36px;
-        margin-left: 435px;
+        /* margin-left: 435px; */
+        margin-left: 53%;
         margin-right: 0px;
         /* UI Properties */
         background: transparent url('../assets/right-quotation-sign.png') 0% 0% no-repeat padding-box;

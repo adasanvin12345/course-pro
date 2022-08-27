@@ -4,7 +4,7 @@
             <p class="refers-heading">Refer</p>
             <p class="refers-desc">How It's Work</p>            
         </div>
-        <div src="" alt="" class="refer-image"></div>
+        <div class="refer-image"></div>
     </div>
     
     
@@ -21,15 +21,17 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 1920px;
+        /* width: 1920px; */
+        width: 100%;
         margin: 0px;
         /* padding-left: 137px; */
-        margin-top: 216px;
+        margin-top: 150px;
         margin-right: 0px;
     }
     .refer-inner_container{
         margin-top: 0px;
-        margin-left: 140px;
+        /* margin-left: 140px; */
+        margin-left: 5.5%;
         margin-right: 140px;
         display: flex;
         flex-direction: column;
@@ -38,7 +40,8 @@ export default {
     .refers-heading{
         margin-top: 0px;
         margin-bottom: 0px;
-        width: 131px;
+        /* width: 131px; */
+        width: 6.8%;
         height: 34px;
         /* UI Properties */
         text-align: left;
@@ -55,7 +58,8 @@ export default {
         margin-top: 12px;
         margin-bottom: 0px;
         margin-left: 0px;
-        width: 490px;
+        /* width: 490px; */
+        width: 25.5%;
         height: 109px;
         /* UI Properties */
         text-align: left;
@@ -70,7 +74,8 @@ export default {
         opacity: 1;
     }
     .refer-image{
-        width: 1759px;
+        /* width: 1759px; */
+        width: 100%;
         height: 796px;
         /* UI Properties */
         background: transparent url('../assets/Group 12142.png') 0% 0% no-repeat padding-box;

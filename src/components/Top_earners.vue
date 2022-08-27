@@ -47,16 +47,19 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 1920px;
+        /* width: 1920px; */
+        width: 100%;
         margin: 0px;
         /* padding-left: 137px; */
-        margin-top: 216px;
+        margin-top: 150px;
         margin-right: 0px;
     }
     .earners-inner_container{
         margin-top: 0px;
-        margin-left: 140px;
-        margin-right: 140px;
+        /* margin-left: 140px; */
+        margin-left: 5.5%;
+        /* margin-right: 140px; */
+        /* margin-right: 7.3%; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -64,7 +67,8 @@ export default {
     .earners-heading{
         margin-top: 0px;
         margin-bottom: 0px;
-        width: 131px;
+        /* width: 131px; */
+        width: 20%;
         height: 34px;
         /* UI Properties */
         text-align: left;
@@ -81,7 +85,8 @@ export default {
         margin-top: 12px;
         margin-bottom: 0px;
         margin-left: 0px;
-        width: 490px;
+        /* width: 490px; */
+        width: 35%;
         height: 109px;
         /* UI Properties */
         text-align: left;
@@ -100,14 +105,17 @@ export default {
         margin-top: 70px;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
     }
     .earners-individual{
         display: flex;
         flex-direction: column;
+        width: 24%;
     }
     .earner-image{
-        margin: 0px;
-        width: 360px;
+        /* margin: 5px; */
+        /* width: 360px; */
+        width: 100%;
         height: 360px;
         border-radius: 5px;
         opacity: 1;
@@ -135,10 +143,13 @@ export default {
         border-left: 10px solid #01CB63;
     }
     .earner-earnings{
-        width: 114px;
+        /* width: 114px; */
+        width: 10%;
         height: 34px;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         margin: 0px;
+        margin-left: 3%;
+        
         /* margin-top: 10px; */
         /* UI Properties */
         text-align: left;
